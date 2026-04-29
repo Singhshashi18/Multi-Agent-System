@@ -1,6 +1,6 @@
 # Multi-Agent Collaboration System
 
-LangGraph-first implementation of Assignment #14 (Phase 3), with FastAPI backend and React frontend.
+LangGraph-first implementation of(Phase 3), with FastAPI backend and React frontend.
 
 ## Current Status
 
