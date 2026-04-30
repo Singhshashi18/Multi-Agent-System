@@ -1,0 +1,26 @@
+[
+  {
+    "id": "content-team",
+    "name": "Content Team",
+    "pattern": "supervisor-worker",
+    "agents": ["Researcher", "Writer", "SEO Expert", "Editor"]
+  },
+  {
+    "id": "analysis-team",
+    "name": "Analysis Team",
+    "pattern": "parallel",
+    "agents": ["Data Analyst", "Industry Expert", "Summarizer"]
+  },
+  {
+    "id": "debate-team",
+    "name": "Debate Team",
+    "pattern": "debate",
+    "agents": ["Advocate (Pro)", "Critic (Con)", "Judge"]
+  },
+  {
+    "id": "code-team",
+    "name": "Code Team",
+    "pattern": "sequential",
+    "agents": ["Architect", "Developer", "Tester", "Code Reviewer"]
+  }
+]

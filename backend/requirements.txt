@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+langgraph
+langchain
+langchain-openai
+langchain-google-genai
+sqlalchemy
+psycopg[binary]
+aiosqlite
+sse-starlette
+python-dotenv
