@@ -5,7 +5,6 @@ from jose import jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-from app.config import settings
 from app.models.database import get_db
 from app.models.schemas import AuthResponse, LoginRequest, SignupRequest
 from app.models.user import User
@@ -18,7 +17,7 @@ def create_access_token(subject: str) -> str:
     expire_at = datetime.now(timezone.utc) + timedelta(minutes=settings.jwt_expire_minutes)
     payload = {"sub": subject, "exp": expire_at}
     return jwt.encode(payload, settings.jwt_secret_key, algorithm=settings.jwt_algorithm)
-
+ 
 
 @router.post("/auth/signup", response_model=AuthResponse)
 async def signup(payload: SignupRequest, db: Session = Depends(get_db)) -> AuthResponse:
