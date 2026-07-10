@@ -12,7 +12,7 @@ LangGraph-first implementation of Assignment #14 (Phase 3), with FastAPI backend
 ## Project Structure
 
 - `backend/` - FastAPI + LangGraph services
-- `frontend/` - React UI
+- `frontend/` - React UI 
 
 ## Next Implementation Order (LangGraph First)
 
