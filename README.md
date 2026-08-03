@@ -10,7 +10,7 @@ LangGraph-first implementation of(Phase 3), with FastAPI backend and React front
 - Team templates and API route placeholders created
 
 ## Project Structure
-
+ 
 - `backend/` - FastAPI + LangGraph services
 - `frontend/` - React UI
 
